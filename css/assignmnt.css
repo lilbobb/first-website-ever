@@ -1,0 +1,17 @@
+body{
+	background:#e3e3e3;
+	font-family: sans-serif;
+}
+blockquote{
+	border: 1px solid white;
+	text-align: center;
+	margin-left: 0;
+}
+
+.wrap{
+	width: 500px;
+	margin: auto;
+}
+.content{
+	text-align: center;
+}

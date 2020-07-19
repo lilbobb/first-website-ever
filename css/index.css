@@ -1,0 +1,130 @@
+body{
+	width: 600px;
+	margin: 10px auto;
+	font-family: sans-serif;
+
+
+	/**margin-top: 20px;
+	margin-bottom: 20px;
+
+	margin: 20px 0 20px 0;
+	margin: 20px 5px 10px;**/
+}
+
+h2{
+	font-size: 35px;
+	line-height: 39px;
+	letter-spacing: -2px;
+}
+
+a{
+	color: #276056;
+	font-size: 12px;
+}
+a:hover{
+	color: black;
+}
+
+p{
+	font-size:14px; 
+	line-height: 20px;
+}
+article img{
+	float: left;
+	margin-right: 35px;
+}
+article h2{
+	margin: 0;
+}
+.continue{
+	float: right;
+	font-style: italic;
+}
+.continue:after{
+	content: ')'
+}
+.continue:before{
+	content: '('
+}
+.meta{
+	padding left: none;
+	margin: 0 0 6px;
+}
+.meta a, .post_info a{
+	font-style: italic;
+}
+.meta li:after {
+	content:'\\';
+	padding: 0 2px;
+	color: #999;
+}
+.meta li:last-child:after{
+	content: none;
+}
+.meta li{
+	display: inline;
+}
+.preview{
+	float: right;
+	width: 320px;
+}
+.post_info{
+	background: #f3f3f3;
+	color:#999;
+	padding: 10px;
+	float: left;
+	font-size: 14px;
+}
+.post_info a{
+	color:#999;
+	text-decoration: none;
+}
+.body{
+	clear: both;
+	color: #575757;
+}
+.wrap{
+	min-width: 600px;
+	width: 80%;
+	margin: auto;
+	background: cyan;
+	/**overflow: hidden; it is used when theres is no footer**/
+}
+.content, aside{
+	height:100%;
+
+}
+.content{
+	background: white;
+	float: left;
+	width: 80%;
+}
+aside{
+	background: gray;
+	float: left;
+	width:20%;
+	height: 100%;
+}  
+aside ul{
+	list-style: none;
+	padding-left: 0;
+	text-align: 0;
+
+}
+footer{
+	clear: both;
+}
+form li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+form ul{
+	padding-left: 0;
+}
+label{
+	display: block
+}
+textarea{
+	width: 400px;
+	height:200px;
+}
